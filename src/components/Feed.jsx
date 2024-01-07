@@ -52,7 +52,7 @@ function Feed({ item }) {
         <div key={photo.id} className=' flex flex-col' >
             <div><img
             className='rounded-t-xl'
-        src={photo.urls.raw}
+        src={photo.urls.regular}
         alt={photo.alt_description}
       
       /></div>
